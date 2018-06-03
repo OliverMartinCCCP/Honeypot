@@ -1,0 +1,988 @@
+/* -------------------------------------------Algemeen */
+body {
+	font-size: 15px;
+	background-image: url("../img/background.jpg");
+	background-color: #fff;
+}
+
+.hidden {
+	display: none;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #2c2c2c;
+	text-align: center;
+	z-index: 1;
+}
+ /*
+nav #social{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: -35%;
+}
+
+nav #social li{
+	display: inline-block;
+}
+*/
+
+nav ul {
+	padding-top: 35px;
+	width: 960px;
+	display: inline-block;
+}
+
+nav li{
+	display:inline;
+	margin:10px 5em 0 5em;
+}
+/*************************/
+/*		USER INFO		*/
+/***********************/
+nav#userinfo{
+	color: white;
+
+}
+
+
+footer {
+	background-color: #2c2c2c;
+	height: 160px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 28%;
+	position: inherit;
+}
+
+/* -------------------------------------------Tekst */
+
+p {
+	font-size: 1em;
+	font-family: helvetica, arial;
+	color: #fff;
+	line-height: 140%;
+
+}
+
+h1 {
+	font-size: 3.5em;
+	font-family: helvetica, arial;
+	color: #fff;
+	line-height: 140%;
+}
+
+h4 {
+	font-size: 1.3em;
+	font-family: helvetica, arial;
+	color: #fff;
+	line-height: 140%;
+
+}
+
+
+h5 {
+	font-size: 3em;
+	font-family: helvetica, arial;
+	color: #fff;
+	line-height: 140%;
+	padding-top: 35px;
+
+}
+
+span.strike {
+	text-decoration: line-through;
+}
+
+
+a {
+	font-size: 1.6em;
+	font-family: Myriad Pro;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b3b3b3;
+	text-decoration: none;
+}
+
+div a {
+	color: #fff;
+	font-size: 1.2em
+}
+
+#page a:hover {
+	color: #46a;
+}
+
+/* -------------------------------------------Id's en classes*/
+/* ---------------------START----------------SearchBox*/
+
+#submit {
+    float: left;
+}
+
+/* ----------------------- */
+
+#submit
+{       
+    background-image: url(../img/search_icon3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #b4b4b4;
+    height: 27px;
+    width: 27px;
+    margin: 0 0 0 0px;   /* Afstand balk en afbeelding */
+    border-radius: 0 50px 50px 0;
+    border: none;
+    padding-right: 50px;
+ 
+}
+
+#submit:hover {       
+    background-color: #b4b4b4;
+
+}   
+
+#submit:active {       
+    background: red;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+/* ------------------END---------------SearchBox*/
+
+
+div#page {
+	padding-top: 185px;
+	width: 824px;
+	margin: 0 auto;
+}
+
+div #wrapper {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	margin: 0 auto;
+	height: 600px;
+	background: #2c2c2c;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+
+div #wrapper img {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	width: 90%;
+}
+
+div#pageBody {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	margin: 0 auto;
+	background: #2c2c2c;
+	margin-bottom: 25px;
+	height: 1000px;
+}
+
+
+div#titel {
+	width: 100%;
+	margin: 0 auto;
+	height: 100px;
+	background: #2c2c2c;
+	margin-bottom: 25px;
+	clear: both;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+/*  KOMT ER NIET BOVEN*/
+
+
+
+a.button-bekijk {
+	background-color: #fff;
+	padding: 10px;
+	color: #000;
+}
+
+a img {
+	margin-bottom: -5px;
+
+}
+
+img.productt {
+	float: left;
+	width: 100px;
+}
+
+span.prijs {
+	float: left;
+	margin-top: -80px;
+	font-size: 2em;
+	color: #fff;
+	font-family: helvetica, arial;
+}
+
+#titel h1 {
+	font-size: 2.5em;
+	padding-top: 20px;
+}
+
+#titel img:hover {
+-webkit-transform: scale(1.05,1.05);
+-moz-transform: scale(1.05,1.05);
+transform: scale(1.05,1.05);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; 
+transition: all 0.5s ease-in-out;
+}
+
+div#links a {
+	color: #c7c7c7;
+	font-size: 1em;
+}
+
+div#links a:hover {
+	color: #fff;
+}
+
+
+div#links ul {
+	float: left;
+}
+
+div#rechts {
+	padding-left: 40%;
+}
+
+div#rechts li {
+	float: left;
+}
+
+div#rechts h5 {
+	font-size: 1em;
+	color: #fff;
+	padding-top: 10px;
+}
+
+div#rechts h6 {
+	font-size: 0.8em;
+	color: #c7c7c7;
+	margin-top: -18px;
+	margin-bottom: 15px;
+}
+
+/* -----------------------------------OverzichtPagina*/
+
+div#overzicht {
+	width: 100%;
+	margin: 0 auto;
+	height: 620px;
+	background: #fff;
+	margin-bottom: 25px;
+	clear: both;
+}
+
+li.ok {
+	padding-bottom: 150px;
+}
+
+ul#items-total {
+	/*background-color: green;*/
+}
+
+div.col1 {
+	width: 170px;
+	float: left;
+	border-right: 5px solid #fff;
+	/*background-color: blue;*/
+}
+
+div.col1 img {
+	padding: 10px 0 10px 24px;
+}
+
+div.col2 {
+	width: 379px;
+	float: left;
+	border-right: 5px solid #fff;
+	/*background-color: red;*/
+}
+
+div.col2 h1 {
+	font-size: 1.2em;
+	padding-left: 30px;
+	padding-top: 42px;
+}
+
+div.col2 p {
+	font-size: 1em;
+	color: #c7c7c7;
+	padding-left: 30px;
+}
+
+div.col3 {
+	width: 265px;
+	float: left;
+	/*background-color: orange;*/
+}
+
+div.col3 h2 {
+	color: #fff;
+	font-size: 1.2em;
+	font-family: helvetica, arial;
+	text-align: center;
+	padding-top: 10px;
+}
+
+div.col3 h3 {
+	color: #fff;
+	font-size: 3em;
+	font-family: helvetica, arial; 
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.col1, .col2, .col3{
+	height: 140px;
+	background-color: #2c2c2c;
+}
+
+div.col3 span {
+	margin-left: 50px;
+}
+
+/* --------------- Details ----- */
+
+div#detail {
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: #2c2c2c;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+div#detail iframe {
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+/* -- Gelijkaardig -- */
+
+div#gelijkaardig {
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: #2c2c2c;
+	margin-bottom: 20px;
+}
+
+div#gelijkaardig h1 {
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-top: 20px;
+	clear: both;
+}
+
+ul.bovenaan {
+	margin-top: 20px;
+}
+
+/* This is used as the traditional .clearfix class */
+.group:before, .shopping-cart:before, .column-labels:before, .product:before, .totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+  content: '';
+  display: table;
+}
+
+.group:after, .shopping-cart:after, .column-labels:after, .product:after, .totals-item:after {
+  clear: both;
+}
+
+/* Apply clearfix in a few places */
+/* Apply dollar signs */
+.product .product-price:before, .product .product-line-price:before, .totals-value:before {
+  content: '€';
+}
+
+/* Body/Header stuff */
+label {
+  color: #aaa;
+}
+
+.shopping-cart {
+  margin-top: -45px;
+}
+
+/* Column headers */
+.column-labels label {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+ 
+}
+
+.column-labels .product-image, .column-labels .product-details, .column-labels .product-removal {
+  text-indent: -9999px;
+}
+
+/* Product entries */
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.product .product-image {
+  text-align: center;
+}
+
+.product .product-image img {
+  width: 100px;
+}
+
+.product .product-details .product-title {
+  margin-right: 20px;
+  font-family: helvetica, arial; 
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.product .product-details .product-description {
+  margin: 5px 20px 5px 0;
+  line-height: 1.4em;
+}
+
+.product-description {
+	color: #b3b3b3;
+}
+
+.product .product-quantity input {
+  width: 40px;
+}
+
+.product .remove-product {
+  border: 0;
+  padding: 4px 8px;
+  background-color: #c66;
+  color: #fff;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.product .remove-product:hover {
+  background-color: #a44;
+}
+
+/* Totals section */
+.totals .totals-item {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.totals .totals-item label {
+  float: left;
+  clear: both;
+  width: 79%;
+  text-align: right;
+}
+
+.totals .totals-item .totals-value {
+  float: right;
+  width: 21%;
+  text-align: right;
+}
+
+.totals .totals-item-total {
+  font-family: helvetica, arial; 
+}
+
+.checkout {
+  float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #6b6;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+}
+
+.checkout:hover {
+  background-color: #494;
+}
+
+div.status {
+	padding: 10px;
+	position: fixed;
+	top:0;
+	right: 0;
+	background-color: #000;
+	color: #fff;
+	z-index: 900;
+}
+
+@media screen and (max-width: 1024px){
+	/** hierin stel je alle css regels op voor de tablet versie,
+alle korpsen: eenheid em gebruiken
+1em komt hier dan overeen met 14px.
+
+Let op: ENKEL DE VERANDERDE STIJL-EIGENSCHAPPEN INGEVEN !
+Vergeet ook niet dat je vorige eigenschappen zult moeten "overrulen":
+bvb:; als er iets in de desktopversie: float:left;gekregen heeft,
+en nu ONDER elkaar moet geplaatst worde, dan moet je float:none; ingeven voor die selector.
+
+**/
+
+	body{
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width: 480px){
+		/** hierin stel je alle css regels op voor de mobile versie,
+	alle korpsen: eenheid em gebruiken
+	1em komt hier dan overeen met 14px.
+
+	Let op: ENKEL DE VERANDERDE STIJL-EIGENSCHAPPEN INGEVEN !
+	Vergeet ook niet dat je vorige eigenschappen zult moeten "overrulen":
+	bvb:; als er iets onzichtbaar moet worden geplaatst kun je hier display:none; ingeven
+
+	**/
+	body {
+		font-size:12px;
+		overflow-x: hidden;
+	}
+
+	div#wrapper {
+		padding-top: 10px;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 25px;
+	}
+
+	h4 {
+	font-size: 1em;
+
+	}
+
+
+	h5 {
+		font-size: 1em;
+	}
+
+	div#titel {
+		padding-left: 70px;
+		margin-bottom: 20px;
+		height: 1350px;
+	}
+
+	div#links {
+		display: none; /* --- jQuery gebruiken --- */
+	}
+
+
+	div#rechts li {
+		float: left;
+	}
+
+	div#rechts p {
+		padding-bottom: 15px;
+	}
+
+	div#rechts h4 {
+		font-size: 2em;
+	}
+
+	div#rechts h5 {
+		font-size: 1.2em;
+		padding-top: 5px;
+	}
+
+	div#rechts h6 {
+		font-size: 1em;
+		margin-top: -10px;
+		margin-bottom: 25px;
+	}
+
+	div.col1 {
+		width: 450px;
+		float: none;
+		border: none;
+		display: table-footer-group;
+	}
+
+	div.col1 img {
+		padding: 10px 0 10px 150px;
+	}
+
+	div.col2 {
+		width: 100vw;
+		float: none;
+		border: none;
+		display: table-header-group;
+	}
+
+	div.col2 h1 {
+		font-size: 1.2em;
+		padding-left: 160px;
+		padding-top: 42px;
+	}
+
+	div.col2 p {
+		padding-left: 110px;
+		width: 100vw;
+	}
+
+	div.col3 {
+		width: 100vw;
+		float: none;
+	}
+
+	div.col3 h2 {
+		padding-bottom: 10px;
+	}
+
+	div.col3 h3 {
+		text-align: center;
+	}
+
+	div.col3 span {
+		padding-left: 90px;
+	}
+
+	div#overzicht {
+		height: 1500px;
+	}
+
+	li.ok {
+	padding-bottom: 20px;
+	}
+}
+
+#personal{
+	position: relative;
+	right: 0;
+	float: right;
+}
+#personal:first-child{
+	float: right;
+	display: inline-block;
+	font-family: Myriad Pro;
+	fon-size: 1.6em;
+	text-decoration: none;
+	margin-right: -50;
+	margin-top: -10;
+}
+
+#personal:first-child:hover{
+	color: #b3b3b3;
+}
+
+.logout{
+	margin-top: 14px;
+}
+
+.login input, .login button{
+	border-radius: 5px;
+	margin-right: -50px;
+}
+
+.login div{
+	display: inline;
+}
+
+.login form{
+	margin-top: -10px;
+}
+
+.login a{
+	float: right;
+}
+
+#logout{
+	display: block;
+}
+
+#winkelmandje{
+	display: block;
+}
+
+#userinfo{
+	color: #fff;
+	background-color:  #2c2c2c;
+	padding-top: 20px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	border-radius:10px;
+	padding-left: 8%;
+}
+
+#userinfo li:first-child{
+	font-size: 1.6em;
+	margin-bottom: 20px;
+}
+
+#userinfo li{
+
+	padding-bottom: 10px;
+}
+
+#userinfo ul{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#userinfo img{
+	margin-top: 10px;
+	height: 150px;
+}
+
+#reviewmenu {
+	border: 1px solid black;
+	width: 150px;
+	display: inline-block;
+
+}
+#reviewmenu a{
+	color: black;
+}
+
+#reviewmenu a:hover{
+	color: blue;
+}
+
+#reviewsummary{
+	background-color:  #2c2c2c;
+	color: #fff;
+	padding-left: 20px;
+}
+
+#allUsers{
+	background-color:  #2c2c2c;
+	color: #fff;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	padding-top: 40px;
+	padding-left: 8%;
+	border-radius: 10px;
+}
+
+#allEvents{
+	background-color:  #2c2c2c;
+	color: #fff;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+#allEvents td{
+	padding-right: 35px;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+
+
+#allEvents th{
+	font-weight: bold;
+	padding-bottom: 15px;
+	padding-right: 35px;
+	color: #fff;
+}
+
+#allEvents #tableTitle{
+	padding-left: 35%;
+}
+
+#allEvents table{
+	font-size: 1.6em;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#allUsers form{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+
+#allUsers input {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#updateProfile form{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+
+
+#updateProfile h1{
+	margin-bottom: 20px;
+}
+
+#updateProfile input {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#reviewsummary {
+	border-radius: 10px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+
+#reviewsummary form{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+
+#reviewsummary input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#reviewsummary .addReview {
+	margin-top: -15px;
+	margin-bottom: -20px;
+}
+
+#reviewsummary input[name="content"]{
+	margin-right: 40px;
+	width: 80%;
+	height: 10%;
+}
+
+#reviewsummary h1{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#reviewsummary p{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+#reviewsummary h4{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+#reviews{
+	color: #fff;
+	background-color: #2c2c2c;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+#reviews #review {
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #3c3c3c;
+}
+
+#reviews #review #username{
+	color: #3c3c3c;
+}
+
+#reviews #review h4{
+	text-transform: uppercase;
+}
+
+#requestForm{
+	color: #fff;
+	background-color: #2c2c2c;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 40px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+#requestForm input, #requestForm textarea {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.g-recaptcha{
+	display: block;
+}
+
+#requestForm form {
+	padding-top: 20px;
+}
+
+
+#reviews p {
+	padding-bottom: 10px;
+}
+
+.addReview {
+	padding-top: -10px;
+	padding-bottom: -10px;
+}
+
+
